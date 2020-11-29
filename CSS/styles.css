@@ -1,0 +1,151 @@
+/* ***********TAG SELECTORS************* */
+a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+body{
+    color: #40514E;
+    font-family: 'Merriweather',serif;
+    margin: 0px;
+    text-align: center;
+}
+h1{
+    color: #66BFBF;
+    font-family: 'Sacramento',cursive;
+    font-size: 562.5 rem; /*100% = 16px  90px / 16px = 562.5*/
+    margin: 50px auto 0px auto;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat',sans-serif;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5 rem;
+}
+
+hr{
+    color: #EAF6F6;
+    border-top: dotted;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-width: 6px;
+    margin: 100px auto;
+
+    width: 6%;
+}
+p{
+    line-height: 2;
+}
+/* ***********CLASS SELECTORS************* */
+.BUTTON_FZZ {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 17px;
+    margin-top: 30px;
+    background-color: #66BFBF;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_FZZ:hover {
+    background: #66BFBF;
+    border: solid #060606 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+.cloud-top{
+    position: absolute;
+    right: 200px;
+    top: 18px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 6px;
+}
+
+.icon-code{
+    float: left;
+    margin-right: 30px;
+    width: 30%;
+}
+.icon-web-dev{
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+.cloud-bottom{
+    position: absolute;
+}
+
+.copyright-text{
+    color: #EAF6F6;
+    font: 0.75rem;
+    padding: 20px 0px;
+}
+.descripton-box{
+    color: #11999E;
+    font-size: 2.5 rem; /*40px / 16px = 2.5* rem relative to the root */
+    font-weight: normal;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.footer-link{
+    color: #11999E;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+.skill-row{
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.top-container{
+    background-color: #EAF6F6;
+    font-size: 3.75rem;
+    padding-top: 140px;
+    position: relative;
+    width: 100%;
+}
+
+.middle-container{
+    margin: 60px 0px 60px 0px;
+}
+
+.profile-pic{
+    width: 30%;
+}
+.bottom-container{
+    color: #11999E;
+    background-color: #66BFBF;
+    padding: 30px 0px 30px 0px;
+    height: 100%;
+}
+
+
